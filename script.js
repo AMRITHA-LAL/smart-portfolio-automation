@@ -1,6 +1,6 @@
-// =====================
+// ====================
 // GITHUB PROJECTS
-// =====================
+// ====================
 
 fetch("projects.json")
 
@@ -8,60 +8,63 @@ fetch("projects.json")
 
 .then(projects => {
 
-document.getElementById(
-"count"
-).innerHTML =
+    document.getElementById(
+        "count"
+    ).innerHTML =
 
-`Total Projects: ${projects.length}`;
+    `Total Projects: ${projects.length}`;
 
-const container =
-document.getElementById(
-"projects-container"
-);
+    const container =
 
-container.innerHTML = "";
+    document.getElementById(
+        "projects-container"
+    );
 
-projects.forEach(project => {
+    container.innerHTML = "";
 
-const card =
-document.createElement(
-"div"
-);
+    projects.forEach(project => {
 
-card.className =
-"project-card";
+        const card =
+        document.createElement(
+            "div"
+        );
 
-card.innerHTML =
+        card.className =
+        "project-card";
 
-`
-<h3>${project.name}</h3>
+        card.innerHTML =
 
-<p>
-${project.description || "No Description"}
-</p>
+        `
+        <h3>
+        ${project.name}
+        </h3>
 
-<a href="${project.url}" target="_blank">
-Open Repository
-</a>
-`;
+        <p>
+        ${project.description || "No Description"}
+        </p>
 
-container.appendChild(
-card
-);
+        <a href="${project.url}" target="_blank">
+        Open Repository
+        </a>
+        `;
 
-});
+        container.appendChild(
+            card
+        );
+
+    });
 
 })
 
 .catch(error => {
 
-console.log(error);
+    console.log(error);
 
 });
 
-// =====================
+// ====================
 // NEWS HEADLINES
-// =====================
+// ====================
 
 fetch("news.json")
 
@@ -69,44 +72,46 @@ fetch("news.json")
 
 .then(news => {
 
-const container =
-document.getElementById(
-"news-container"
-);
+    const container =
 
-container.innerHTML = "";
+    document.getElementById(
+        "news-container"
+    );
 
-const newsBox =
-document.createElement(
-"div"
-);
+    container.innerHTML = "";
 
-newsBox.className =
-"project-card";
+    const card =
+    document.createElement(
+        "div"
+    );
 
-let newsHTML = "<ul>";
+    card.className =
+    "project-card";
 
-news.forEach(item => {
+    let html = "<ul>";
 
-newsHTML +=
+    news.forEach(item => {
 
-`<li>${item}</li>`;
+        html += `
+        <li>
+        ${item}
+        </li>
+        `;
 
-});
+    });
 
-newsHTML += "</ul>";
+    html += "</ul>";
 
-newsBox.innerHTML =
-newsHTML;
+    card.innerHTML = html;
 
-container.appendChild(
-newsBox
-);
+    container.appendChild(
+        card
+    );
 
 })
 
 .catch(error => {
 
-console.log(error);
+    console.log(error);
 
 });

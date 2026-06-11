@@ -5,7 +5,7 @@ sender = "kavyakannan2020@gmail.com"
 
 receiver = "kimjeonkavya@gmail.com"
 
-app_password = "ngpo tusp icdg jqan"
+app_password = "zaiy ryml zfqy ecqk"
 
 msg = EmailMessage()
 

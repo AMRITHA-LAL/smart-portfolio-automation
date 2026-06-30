@@ -1,1 +1,221 @@
-# smart-portfolio-automation
+# Smart Portfolio Automation 🚀
+
+![Portfolio Banner](profile.jpeg)
+
+A personal developer portfolio website built to showcase my skills, projects, learning journey, and experiments in software development.
+
+This project combines a responsive web portfolio with automation workflows using Python and GitHub Actions.
+
+🌐 **Live Website:**  
+https://amritha-lal.github.io/smart-portfolio-automation/
+
+---
+
+## 👩‍💻 About Me
+
+Hi, I'm **Amritha Lal**, a B.Tech Computer Science & Engineering student with a background in Diploma Computer Engineering.
+
+I am interested in:
+
+- Software Development
+- Web Technologies
+- Python Programming
+- Artificial Intelligence Exploration
+- Digital Product Design
+- Automation
+
+I enjoy building practical projects while continuously improving my technical skills.
+
+---
+
+# ✨ Project Overview
+
+Smart Portfolio Automation is a personal portfolio website designed to present:
+
+- My technical skills
+- Projects and prototypes
+- Learning journey
+- Development experiments
+- Contact information
+
+The project also includes automation scripts that demonstrate working with APIs, data fetching, and scheduled workflows.
+
+---
+
+# 🎯 Features
+
+## Portfolio Website
+
+- Responsive personal portfolio
+- Hero introduction section
+- About section
+- Skills showcase
+- Featured projects
+- Project gallery
+- Contact section
+
+---
+
+## Automation Features
+
+The repository includes Python-based automation experiments:
+
+### 📰 News Fetching
+
+Fetches news data and processes information using Python.
+
+File:
+
+```
+news_fetch.py
+```
+
+---
+
+### 🌦 Weather Alert System
+
+A Python-based weather monitoring experiment.
+
+File:
+
+```
+weather_alert.py
+```
+
+---
+
+### 📧 Email Automation
+
+Script for sending automated emails.
+
+File:
+
+```
+email_sender.py
+```
+
+---
+
+### 🔗 GitHub Data Fetching
+
+Experiment with retrieving GitHub-related information.
+
+File:
+
+```
+github_fetch.py
+```
+
+---
+
+# 🛠 Technologies Used
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Programming
+
+- Python
+
+## Tools
+
+- Git
+- GitHub
+- GitHub Actions
+- Visual Studio Code
+
+## Design
+
+- Figma
+
+---
+
+# 📂 Project Structure
+
+```
+portfolio/
+
+│
+├── index.html              # Main portfolio webpage
+├── style.css               # Website styling
+├── script.js               # JavaScript functionality
+│
+├── profile.jpeg            # Profile image
+│
+├── projects.json           # Project data
+│
+├── email_sender.py         # Email automation script
+├── github_fetch.py         # GitHub data fetching script
+├── news_fetch.py           # News fetching script
+├── weather_alert.py        # Weather automation script
+│
+├── requirements.txt        # Python dependencies
+│
+└── .github/
+    └── workflows/
+        ├── news.yml
+        ├── weather.yml
+        └── portfolio.yml
+```
+
+---
+
+# ⚙️ GitHub Actions
+
+This project uses GitHub Actions workflows for automation.
+
+Current workflows:
+
+- Portfolio deployment automation
+- News automation workflow
+- Weather automation workflow
+
+These workflows demonstrate CI/CD concepts and scheduled task execution.
+
+---
+
+# 🌱 Learning Outcomes
+
+Through this project, I explored:
+
+- Building responsive websites
+- Structuring frontend projects
+- Working with Git and GitHub
+- Using GitHub Actions
+- Python automation concepts
+- Managing project documentation
+- Deploying websites using GitHub Pages
+
+---
+
+# 🔮 Future Improvements
+
+Planned improvements:
+
+- Add more real-world projects
+- Improve UI/UX
+- Add backend integration
+- Connect projects with APIs
+- Enhance automation workflows
+
+---
+
+# 📬 Contact
+
+**Amritha Lal**
+
+LinkedIn:
+https://www.linkedin.com/in/amritha-lal-8558aa262
+
+GitHub:
+https://github.com/AMRITHA-LAL
+
+Portfolio:
+https://amritha-lal.github.io/smart-portfolio-automation/
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository.

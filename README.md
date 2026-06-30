@@ -1,6 +1,6 @@
 # Smart Portfolio Automation 🚀
 
-![Portfolio Banner](profile.jpeg)
+![Portfolio Banner](portfolio-home.jpeg)
 
 A personal developer portfolio website built to showcase my skills, projects, learning journey, and experiments in software development.
 

@@ -1,13 +1,15 @@
-# Smart Portfolio Automation 🚀
+# Amritha Lal - Personal Developer Portfolio 🚀
 
 ![Portfolio Banner](portfolio-home.jpeg)
 
 A personal developer portfolio website built to showcase my skills, projects, learning journey, and experiments in software development.
 
-This project combines a responsive web portfolio with automation workflows using Python and GitHub Actions.
+A personal developer portfolio website built to showcase my skills, projects, learning journey, and software development experiments.
+
+The project also includes Python automation experiments and GitHub Actions workflows demonstrating CI/CD concepts.
 
 🌐 **Live Website:**  
-https://amritha-lal.github.io/smart-portfolio-automation/
+https://amritha-lal.github.io/amritha_portfolio/
 
 ---
 
@@ -56,46 +58,6 @@ The project also includes automation scripts that demonstrate working with APIs,
 
 ---
 
-## Automation Features
-
-The repository includes Python-based automation experiments:
-
-### 📰 News Fetching
-
-Fetches news data and processes information using Python.
-
-File:
-
-```
-news_fetch.py
-```
-
----
-
-### 🌦 Weather Alert System
-
-A Python-based weather monitoring experiment.
-
-File:
-
-```
-weather_alert.py
-```
-
----
-
-### 📧 Email Automation
-
-Script for sending automated emails.
-
-File:
-
-```
-email_sender.py
-```
-
----
-
 ### 🔗 GitHub Data Fetching
 
 Experiment with retrieving GitHub-related information.
@@ -107,7 +69,28 @@ github_fetch.py
 ```
 
 ---
+# 🌊 Featured Project
 
+## TIDE-AI Productivity Application
+
+TIDE-AI is a productivity and task management mobile application concept designed using Figma and implemented using Flutter.
+
+Features:
+
+- Task Management
+- Calendar Organization
+- Productivity Tracking
+- AI-inspired Assistant Interface
+
+Technologies:
+
+- Flutter
+- Dart
+- Figma
+
+Project Details:
+
+https://amritha-lal.github.io/amritha_portfolio/tideai.html
 # 🛠 Technologies Used
 
 ## Frontend
@@ -132,7 +115,50 @@ github_fetch.py
 - Figma
 
 ---
+# 📸 Project Screenshots
 
+## 🌐 Portfolio Website
+
+<p align="center">
+<img src="portfolio-home.jpeg" width="750">
+</p>
+
+
+---
+
+## 🌊 TIDE-AI Mobile Application
+
+
+<p align="center">
+
+<img src="tideai-cover.jpeg" width="350">
+
+</p>
+
+
+### Application Screens
+
+
+<p align="center">
+
+<img src="login.jpeg" width="200">
+
+<img src="home.jpeg" width="200">
+
+<img src="task.jpeg" width="200">
+
+</p>
+
+
+<p align="center">
+
+<img src="calendar.jpeg" width="200">
+
+<img src="AI.jpeg" width="200">
+
+<img src="profile-page.jpeg" width="200">
+
+</p>
 # 📂 Project Structure
 
 ```
@@ -214,7 +240,7 @@ GitHub:
 https://github.com/AMRITHA-LAL
 
 Portfolio:
-https://amritha-lal.github.io/smart-portfolio-automation/
+https://amritha-lal.github.io/amritha_portfolio/
 
 ---
 

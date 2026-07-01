@@ -32,16 +32,16 @@ Features:
 - AI-inspired Assistant Interface
 
 Technologies:
-
+https://amritha-lal.github.io/amritha_portfolio/tideai.html
 - Flutter
 - Dart
 - Figma
 
 Project Details:
+ 
+ https://amritha-lal.github.io/amritha_portfolio/tideai.html
 
-https://amritha-lal.github.io/amritha_portfolio/tideai.html
 ---
-
 # 📱 TIDE-AI Application Screens
 
 The Flutter implementation of TIDE-AI includes multiple screens demonstrating the application workflow and user interface design.
